@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Zilla+Slab:wght@300&display=swap');
+body{
+background-color:#deedde;
+color:#99A799;
+text-align: center;
+ font-family: 'Zilla Slab', serif;
+}
+
+.grid-container{
+display: grid;
+grid-template-columns: auto auto auto ;
+padding-left:30px; 
+padding-right:30px;
+grid-gap:15px;
+}
+
+.grid-item{
+
+    border: 4px solid rgb(119, 139, 119);
+    padding: 20px;
+    text-align: center;
+}
+.grid-item:hover{
+
+border: 12px double #99A799;
+
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding-left:30px; 
+    padding-right:30px;
+    grid-gap: 15px;
+}
+
+button{ 
+
+background-color:#99A799;
+padding: 20px;
+border: 5px double #99A799;
+font-family: 'Zilla Slab', serif;
+
+
+}
+button:hover{
+
+background-color: #768076;
+
+}
+a{
+
+text-decoration: none;
+color: #deedde;
+font-size:x-large;
+}
+
+.dropbtn{
+
+background-color:#deedde;
+color: #99A799;
+font-family:'Zilla Slab', serif;
+font-size: 18px;
+border:none;
+padding: 12px;
+}
+
+nav{
+
+background-color: #bccfbc;
+color: #99A799;
+height: 75px;
+font-family:'Zilla Slab', serif;
+position: relative;
+}
+nav >div >ul{
+
+align-items: center;
+height: 115px;
+position: absolute;
+right: 130px;
+display: grid;
+grid-template-columns:140px 140px 140px;
+grid-gap: 100px;
+list-style-type: none;
+top:0;
+}
+nav >div{
+
+display:inline-block;
+
+}
+
+nav > div > ul >a{
+padding:15px;
+border: 2px solid #566156 ;
+width: calc(auto + 20px);
+text-decoration: none;
+border-radius: 12px;
+}
+
+
+
+
+
+.dropdown { 
+position: relative;
+display:inline-block;
+padding-right: 50px;
+padding-left: 50px;
+}
+
+.Dropdown-Content{
+position:absolute;
+display: none;
+background-color: #99A799;
+min-width: 165px;
+z-index: 1;
+display:block;
+}
+
+.Dropdown-Content a{
+
+color: #b5cab5;
+padding-right: 12px;
+padding-left: 16px;
+text-decoration: none;
+display: block;
+
+}
+
+
+.Dropdown-Content a:hover{
+    background-color: #495e49;
+}
+
+.dropdown:hover .Dropdown-Content{
+
+display:block
+}
+nav >.logo{
+
+position:absolute;
+top: 50%;
+left:-5px;
+transform: translateY(-50%);
+width: 230px;
+
+
+}
+nav >.logo > span{
+
+position: absolute;
+right: -100px ;
+top:50%;
+transform: translateY(-50%);
+
+}
+

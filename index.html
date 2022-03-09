@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quizizz</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="./static/style2.css">
+
+<style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    nav {
+        background-color: #bccfbc;
+color: #99A799;
+      height: 100px;
+      font-family: 'Zilla Slab', serif ;
+      position: relative;
+    }
+
+    nav > div > ul {
+      align-items: center;
+      height: 100px;
+      position: absolute;
+      right: 100px;
+      top: 0;
+      display: grid;
+      grid-template-columns: 140px 140px 140px;
+      grid-gap: 20px;
+      list-style-type: none;
+    }
+
+    nav > div > ul > a > li {
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    nav > .logo {
+      position: absolute;
+      top: 50%;
+      left: -50px;
+      width: 230px;
+      color: grey;
+      transform: translateY(-50%);
+    }
+
+    nav > .logo > span {
+  
+      position: absolute;
+      right: -100px;
+     
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    nav > div > ul > a {
+        width: calc(auto + 20px);
+        border: 1px solid grey;
+        padding: 10px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+
+    nav > div > ul > a:hover {
+        width: calc(auto + 20px);
+        border: 1px solid grey;
+        padding: 10px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+
+    nav > div {
+      display: inline-block;
+    }
+
+    nav > div > ul > a > li > select {
+        background-color: #000 !important;
+        border: none;
+        color: #fff;
+    }
+
+
+  body{
+      background-color: #deedde;
+     
+      text-align: center;
+      font-size: larger;
+      font-family: 'Zilla Slab', serif;
+      color:#99A799;
+ 
+  }
+
+  .dropbtn{
+    background-color:#deedde;
+color: #99A799;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    width: 150px;
+  }
+
+  .dropdown{
+    position: relative;
+    display: inline-block;
+    font-family: 'Zilla Slab', serif;
+  
+  }
+
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #99A799;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+  }
+  .dropdown-content a {
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover {  background-color: #495e49;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #495e49;}
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo"><img src="./static/Kettle of Quiz.png" alt="death logo" width="45%"><span>By Ayana Menon</span></div>
+    <div>
+      <ul>
+   
+
+
+      <div class="dropdown">
+        <a href="./index.html"><button class="dropbtn">Home</button></a>
+        </div>
+
+
+
+        <div class="dropdown">
+          <button class="dropbtn">Quizzes</button>
+          <div class="dropdown-content">
+              <a href="./BioLogy.html">Biology</a>
+              <a href="./Reading.html" target="_blank">Reading</a>
+              <a href="./MathaMatics.html" target="_blank">Mathamatics</a>
+              <a href="./SpAce.html" target="_blank">Space</a>
+              <a href="./MirAculAouS.html">MLB 2.0</a>
+           
+            
+            </div>
+          </div>
+
+
+          <div class="dropdown">
+            <button class="dropbtn">All about Me</button>
+            <div class="dropdown-content">
+                <a href="./Desp.html"">Description</a>
+                <a href="https://future-biolagist.github.io/FB/" target="_blank">My First Ever Website </a>
+                <a href="https://future-biolagist.github.io/Sunrise_Islands/index.html" target="_blank">Sunrise Islands</a>
+    
+             
+              
+              </div>
+            </div>
+
+      </ul>
+    </div>
+  </nav>
+  <br><br><br>
+  <div class="wavy-text-animation">
+  <span style="--i:1">♥</span>
+  <span style="--i:2"> </span>
+  <span style="--i:3">A</span>
+  <span style="--i:4"> </span>
+  <span style="--i:5">K</span>
+  <span style="--i:6">e</span>
+  <span style="--i:7">t</span>
+  <span style="--i:8">t</span>
+  <span style="--i:9">l</span>
+  <span style="--i:10">e</span>
+  <span style="--i:11"> </span>
+  <span style="--i:12">O</span>
+  <span style="--i:13">f</span>
+  <span style="--i:14"> </span>
+  <span style="--i:15">Q</span>
+  <span style="--i:16">u</span>
+  <span style="--i:17">i</span>
+  <span style="--i:18">z</span>
+  <span style="--i:19"> </span>
+  <span style="--i:20">♥</span> 
+  <!-- <h1> ♥ A Kettle Of Quiz ♥ </h1> -->
+</div>
+  <br>
+  <p> ☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆</p>
+  <br>
+  <h2> Hello and welcome to A Kettle Of Quiz. This is a website that fits <br> all your quizzing needs.
+  This website is simple to use , <br> as all you have to do is click on one of the fabulous, and<BR>  
+  magical buttons/tiles which will take you the the quiz of your dreams.<br> The buttons/tiles 
+  are right below this intro! So what are you waiting for? Start Quizzing! </h2>
+  <br>
+  <p> ☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆</p>
+
+
+  <div class="grid-container">
+      <div class="grid-item">
+          <a href="./BioLogy.html">
+      <img src="./static/bio.jpg" alt=" lol " width="400px" 
+      >
+  </a>
+      </div>
+      <div class="grid-item">
+          <a href="./Reading.html">
+      <img src="./static/read.jpg" alt=" lol " width="400px" > 
+  </a>
+      </div>
+      <div class="grid-item">
+          <a href="./MathaMatics.html">
+      <img src="./static/math.jpg" alt="lol" width=" 400px" >
+  </a>
+      </div>
+      <div class="grid-item">
+          <a href="./SpAce.html">
+      <img src="./static/spac.jpg" alt="lol" width="400px" >
+  </a>
+  </a>
+      </div>
+      <div class="grid-item">
+          <a href="MirAculAouS.html">
+      <img src="./static/MLB2.jpg" alt="lol" width="400px" >
+  </a>
+      </div>
+      <div class="grid-item">
+          <a href="MeHdAgReAt.html">
+      <img src="./static/meH (1).jpg" alt="lol" width="400px" >
+  </a>
+      </div>
+  </div>
+
+<!--For yall who inspect the code your my faves now<3 
+  (Also visit my roblox avatar and follow me plz, User : FutureBiolagist but my disp name is ilikeanimals)
+Lol self promo is over, I hope you enjoy my website!:D 
+p.s IDK what Brownlijoe looks like so someone plz create his look!-->
+    
+</body>
+</html>
